@@ -1,0 +1,9 @@
+.cuadro1{
+    background-color: blue;
+}
+.cuadro2{
+    background-color: red;
+}
+.padre{
+    display: inline-block;
+}
