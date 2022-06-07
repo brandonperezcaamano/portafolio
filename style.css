@@ -1,9 +1,47 @@
 .cuadro1{
     background-color: blue;
+    margin-right: 0%;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10%;
+    
 }
 .cuadro2{
     background-color: red;
+    margin-right: 0%;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10%;
+}
+.cuadro3{
+    background-color: green;
+    margin-right: 0%;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10%;
+}
+.cuadro4{
+    background-color: yellow;
+    margin-right: 0%;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 10%;
+}
+.cuadro1 li:hover{
+    color: white;
+    text-decoration:overline;
 }
 .padre{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    background-color: purple;
+    margin: 10px;
+}
+button:hover{
+    background-color: aqua;
+}
+ul{
+    list-style-type:upper-roman;
 }
